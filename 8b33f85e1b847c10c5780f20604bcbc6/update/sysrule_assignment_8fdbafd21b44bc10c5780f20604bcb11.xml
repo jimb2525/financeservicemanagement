@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment">
+    <sysrule_assignment action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_finance_se_0_finance_request">short_descriptionLIKEAccounts Payable^EQ<item endquery="false" field="short_description" goto="false" newquery="false" operator="LIKE" or="false" value="Accounts Payable"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <group display_value="Account Payable" name="Account Payable">b92407de1b40bc10c5780f20604bcb6c</group>
+        <match_conditions>ALL</match_conditions>
+        <name>AP Assignment</name>
+        <order>100</order>
+        <script>/**&#13;
+* Example:&#13;
+* The following script requires personalizing the instance to add the Malware category and the Security assignment group.&#13;
+* if (current.category == "Hardware")&#13;
+*    current.assignment_group.setDisplayValue("Hardware"); &#13;
+* else if (current.category == "Software")&#13;
+*    current.assignment_group.setDisplayValue("Software");&#13;
+* else if (current.category == "Malware")&#13;
+*    current.assignment_group.setDisplayValue("Security");	&#13;
+*&#13;
+* Another Example:&#13;
+* Release Planning Example, which assigns the last person assigned to a release to the current release.&#13;
+* current.release.product.service.assigned_to;&#13;
+*/</script>
+        <sys_class_name>sysrule_assignment</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-13 16:29:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8fdbafd21b44bc10c5780f20604bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AP Assignment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name>sysrule_assignment_8fdbafd21b44bc10c5780f20604bcb11</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-13 16:29:23</sys_updated_on>
+        <table>x_snc_finance_se_0_finance_request</table>
+        <user display_value="James Belote">3558aaf38762e050518cebdd3fbb35ce</user>
+    </sysrule_assignment>
+</record_update>
