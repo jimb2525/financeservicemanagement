@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Wire payment requests">436ddc871b583010aedf54252a4bcbd7</sc_cat_item>
+        <sc_category display_value="Finance and Accounting">aa5958e6db207050f1860f95ca961991</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-09-24 13:45:04</sys_created_on>
+        <sys_id>407bc5ed1bf63c507ba764a5ec4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance and Accounting.Wire payment requests</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name>sc_cat_item_category_407bc5ed1bf63c507ba764a5ec4bcbd5</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-09-24 13:45:04</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

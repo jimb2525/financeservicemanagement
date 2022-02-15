@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>L1 Configuration	</description>
+        <name>chrome_toolbar</name>
+        <page display_value="Finance Service Management Workspace">2d45b81229c47c10a6e26c50e0c76f89</page>
+        <required_translations>[{"message":"List","comment":""},{"message":"Home","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-13 03:11:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>e145b81232c47c105cf4b569462ce18a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name>sys_ux_page_property_e145b81232c47c105cf4b569462ce18a</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-13 03:11:01</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_finance_se_0.2d45b81229c47c10a6e26c50e0c76f89.root.chrome_toolbar</unique_name>
+        <value>[
+   {
+      "id":"home",
+      "label":"Home",
+      "icon":"home-outline",
+      "viewportInfo":{
+         
+      },
+      "routeInfo":{
+         "route":"home"
+      },
+      "group":"top",
+      "badge":{
+         
+      },
+      "presence":{
+         
+      },
+      "availability":{
+         
+      }
+   },
+   {
+      "id":"list",
+      "label":"List",
+      "icon":"list-outline",
+      "viewportInfo":{
+         
+      },
+      "routeInfo":{
+         "route":"list"
+      },
+      "group":"top",
+      "badge":{
+         
+      },
+      "presence":{
+         
+      },
+      "availability":{
+         
+      }
+   }
+]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=e145b81232c47c105cf4b569462ce18a"/>
+</record_update>

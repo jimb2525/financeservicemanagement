@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-06-07 17:25:12</sys_created_on>
+        <sys_id>4a8868aadb607050f1860f95ca96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_finance_se_0_finance_request_task.x_snc_finance_se_0.user</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_security_acl display_value="x_snc_finance_se_0_finance_request_task">868868aadb607050f1860f95ca961921</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4a8868aadb607050f1860f95ca96193d</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-06-07 17:25:12</sys_updated_on>
+        <sys_user_role display_value="x_snc_finance_se_0.user" name="x_snc_finance_se_0.user">358868aadb607050f1860f95ca96190c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</application>
+        <file_path/>
+        <instance_id>a6f52633dbde2c108aea21c4059619d1</instance_id>
+        <instance_name>jbelote12demo</instance_name>
+        <name>sys_security_acl_role_4a8868aadb607050f1860f95ca96193d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-06-07 17:25:12</sys_created_on><sys_id>4a8868aadb607050f1860f95ca96193d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_finance_se_0_finance_request_task.x_snc_finance_se_0.user</sys_name><sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package><sys_policy/><sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope><sys_security_acl display_value="x_snc_finance_se_0_finance_request_task">868868aadb607050f1860f95ca961921</sys_security_acl><sys_update_name>sys_security_acl_role_4a8868aadb607050f1860f95ca96193d</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-06-07 17:25:12</sys_updated_on><sys_user_role display_value="x_snc_finance_se_0.user" name="x_snc_finance_se_0.user">358868aadb607050f1860f95ca96190c</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1108403260</payload_hash>
+        <record_name>x_snc_finance_se_0_finance_request_task.x_snc_finance_se_0.user</record_name>
+        <reverted_from/>
+        <source>cb33f85e1b847c10c5780f20604bcbc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-06-07 17:25:12</sys_created_on>
+        <sys_id>c28868aadb607050f1860f95ca961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e781c6ae0000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-06-07 17:25:12</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>ca8868aad86070509408a24994cba03f</update_guid>
+        <update_guid_history>ca8868aad86070509408a24994cba03f:-1108403260</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_finance_se_0_finance_request_task.x_snc_finance_se_0.user">5ec8acaadb607050f1860f95ca96199e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-06-07 17:26:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>03a4c03007734b6a802226575453fc01</sys_id>
+        <sys_metadata>4a8868aadb607050f1860f95ca96193d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_finance_se_0_finance_request_task.x_snc_finance_se_0.user</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package>
+        <sys_parent display_value="x_snc_finance_se_0_finance_request_task">868868aadb607050f1860f95ca961921</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_scope_delete display_value="">040d917a8e7640b7868bba3edbff65b1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_4a8868aadb607050f1860f95ca96193d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_4a8868aadb607050f1860f95ca96193d">c28868aadb607050f1860f95ca961940</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-06-07 17:26:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

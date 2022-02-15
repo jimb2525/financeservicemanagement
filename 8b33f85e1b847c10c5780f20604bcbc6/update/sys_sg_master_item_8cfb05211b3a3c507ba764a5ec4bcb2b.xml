@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_snc_finance_se_0_finance_request_task</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Finance Request Task Form Screen">c4fb05211b3a3c507ba764a5ec4bcb29</embedded_screen>
+        <item_view/>
+        <name>Finance Request Task master_item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-09-24 13:47:15</sys_created_on>
+        <sys_id>8cfb05211b3a3c507ba764a5ec4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance Request Task master_item</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name>sys_sg_master_item_8cfb05211b3a3c507ba764a5ec4bcb2b</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-09-24 13:47:15</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Finance Request Task List Screen View Config">b3ebc1211b3a3c507ba764a5ec4bcba7</view_config>
+    </sys_sg_master_item>
+</record_update>

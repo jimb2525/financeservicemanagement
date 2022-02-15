@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Delete Swipe (Finance Request)">e3ebc1211b3a3c507ba764a5ec4bcb27</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Delete</label>
+        <location>leading_swipe</location>
+        <name>Delete (Finance Request)</name>
+        <order/>
+        <parent>efebc1211b3a3c507ba764a5ec4bcb23</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-09-24 13:47:14</sys_created_on>
+        <sys_id>f7ebc1211b3a3c507ba764a5ec4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (Finance Request)</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name>sys_sg_button_instance_f7ebc1211b3a3c507ba764a5ec4bcb29</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-09-24 13:47:14</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=f7ebc1211b3a3c507ba764a5ec4bcb29"/>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="category" label="Category" language="en" table="x_snc_finance_se_0_finance_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <help/>
+            <hint/>
+            <label>Category</label>
+            <language>en</language>
+            <name>x_snc_finance_se_0_finance_request</name>
+            <plural>Categories</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-05-13 03:06:15</sys_created_on>
+            <sys_id>ff24fc9e1b847c10c5780f20604bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Category</sys_name>
+            <sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_finance_se_0_finance_request_category_en</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-05-13 03:06:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

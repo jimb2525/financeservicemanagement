@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Accounts Payable">6395f4521bc47c10c5780f20604bcbdd</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-13 03:15:17</sys_created_on>
+        <sys_id>8c4634921bc47c10c5780f20604bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Accounts Payable</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_8c4634921bc47c10c5780f20604bcb6a</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-13 03:15:17</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</application>
+        <file_path/>
+        <instance_id>a6f52633dbde2c108aea21c4059619d1</instance_id>
+        <instance_name>jbelote12demo</instance_name>
+        <name>sc_cat_item_catalog_8c4634921bc47c10c5780f20604bcb6a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Accounts Payable">6395f4521bc47c10c5780f20604bcbdd</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-05-13 03:15:17</sys_created_on><sys_id>8c4634921bc47c10c5780f20604bcb6a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Accounts Payable</sys_name><sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package><sys_policy/><sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope><sys_update_name>sc_cat_item_catalog_8c4634921bc47c10c5780f20604bcb6a</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-05-13 03:15:17</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1550245137</payload_hash>
+        <record_name>Service Catalog.Accounts Payable</record_name>
+        <reverted_from/>
+        <source>cb33f85e1b847c10c5780f20604bcbc9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-13 03:15:17</sys_created_on>
+        <sys_id>984634921bc47c10c5780f20604bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17963b8ac240000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-13 03:15:17</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>dc463492b3c47c10570438f69e20cf6d</update_guid>
+        <update_guid_history>dc463492b3c47c10570438f69e20cf6d:1550245137</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Accounts Payable">584634921bc47c10c5780f20604bcb77</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-05-13 03:15:17</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>267e063eff9c4a40880ddb46355a7240</sys_id>
+        <sys_metadata>8c4634921bc47c10c5780f20604bcb6a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Accounts Payable</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package>
+        <sys_parent display_value="Accounts Payable">6395f4521bc47c10c5780f20604bcbdd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_scope_delete display_value="">040d917a8e7640b7868bba3edbff65b1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_8c4634921bc47c10c5780f20604bcb6a</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_8c4634921bc47c10c5780f20604bcb6a">984634921bc47c10c5780f20604bcb6e</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-05-13 03:15:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
