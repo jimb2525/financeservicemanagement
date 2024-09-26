@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="">059413f9471e8110f97e60a2e36d4353</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-03-18 18:02:28</sys_created_on>
+        <sys_id>c99413f9471e8110f97e60a2e36d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test.SNC External</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_c99413f9471e8110f97e60a2e36d4358</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-03-18 18:02:28</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</application>
+        <file_path/>
+        <instance_id>a6f52633dbde2c108aea21c4059619d1</instance_id>
+        <instance_name>jbelote12demo</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_c99413f9471e8110f97e60a2e36d4358</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="">059413f9471e8110f97e60a2e36d4353</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2022-03-18 18:02:28</sys_created_on><sys_id>c99413f9471e8110f97e60a2e36d4358</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test.SNC External</sys_name><sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package><sys_policy/><sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_c99413f9471e8110f97e60a2e36d4358</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2022-03-18 18:02:28</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>427410629</payload_hash>
+        <record_name>Test.SNC External</record_name>
+        <reverted_from/>
+        <source>d3d8e51347220110ca940ae2846d43a1</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-04-04 12:18:27</sys_created_on>
+        <sys_id>f7f3a5d847760110f97e60a2e36d4372</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17ff4831a380000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>b7f3a5d825760110139611a1f8d72e72</update_guid>
+        <update_guid_history>b7f3a5d825760110139611a1f8d72e72:427410629</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Test.SNC External">bff3a5d847760110f97e60a2e36d4375</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:31:07</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>0ca8cb9f60934e74b0c8f67296274090</sys_id>
+        <sys_metadata>c99413f9471e8110f97e60a2e36d4358</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test.SNC External</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_scope_delete display_value="">040d917a8e7640b7868bba3edbff65b1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_c99413f9471e8110f97e60a2e36d4358</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_c99413f9471e8110f97e60a2e36d4358">f7f3a5d847760110f97e60a2e36d4372</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:31:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

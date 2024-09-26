@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>update_customer_addres</internal_name>
+        <label_cache>[{"name":"{{step[f453c5ca-455e-4f31-b61c-5906447297d8].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""}]</label_cache>
+        <master_snapshot>0e8f51dc47360110f97e60a2e36d4385</master_snapshot>
+        <name>Update Customer Address</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:51:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>150bdd9447360110f97e60a2e36d4321</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Update Customer Address</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_150bdd9447360110f97e60a2e36d4321</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:37</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=150bdd9447360110f97e60a2e36d4321"/>
+    <sys_variable_value action="delete_multiple" query="document_key=150bdd9447360110f97e60a2e36d4321"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>150bdd9447360110f97e60a2e36d4321</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:56:04</sys_created_on>
+        <sys_id>56fb915847360110f97e60a2e36d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:56:04</sys_updated_on>
+        <value>true</value>
+        <variable display_value="Success">defb915847360110f97e60a2e36d43d0</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="delete_multiple" query="action=150bdd9447360110f97e60a2e36d4321^sys_idNOT IN487bd11847360110f97e60a2e36d43bf,907bd11847360110f97e60a2e36d43fb"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update Customer Address">150bdd9447360110f97e60a2e36d4321</action>
+        <cid>f453c5ca-455e-4f31-b61c-5906447297d8</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:53:43</sys_created_on>
+        <sys_id>487bd11847360110f97e60a2e36d43bf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:55:04</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=487bd11847360110f97e60a2e36d43bf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>487bd11847360110f97e60a2e36d43bf</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:53:44</sys_created_on>
+        <sys_id>147bd11847360110f97e60a2e36d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:53:44</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>487bd11847360110f97e60a2e36d43bf</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:53:44</sys_created_on>
+        <sys_id>187bd11847360110f97e60a2e36d43e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:53:44</sys_updated_on>
+        <value>api/now/table/sys_user</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>487bd11847360110f97e60a2e36d43bf</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:53:44</sys_created_on>
+        <sys_id>187bd11847360110f97e60a2e36d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:53:44</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>487bd11847360110f97e60a2e36d43bf</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:53:44</sys_created_on>
+        <sys_id>507bd11847360110f97e60a2e36d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:53:44</sys_updated_on>
+        <value>63a201cf877f6410518cebdd3fbb35c1</value>
+        <variable display_value="Credential Alias">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>487bd11847360110f97e60a2e36d43bf</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:53:44</sys_created_on>
+        <sys_id>9c7bd11847360110f97e60a2e36d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:53:44</sys_updated_on>
+        <value>https://jbelote12demo.service-now.com</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>487bd11847360110f97e60a2e36d43bf</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:55:04</sys_created_on>
+        <sys_id>b3bb5d1847360110f97e60a2e36d4337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:55:04</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>487bd11847360110f97e60a2e36d43bf</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:53:44</sys_created_on>
+        <sys_id>d47bd11847360110f97e60a2e36d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:53:44</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"active","value":"true"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"user_name","value":"abel.tuter"}]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>487bd11847360110f97e60a2e36d43bf</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:53:44</sys_created_on>
+        <sys_id>d87bd11847360110f97e60a2e36d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:53:44</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=487bd11847360110f97e60a2e36d43bf^sys_idNOT IN587bd11847360110f97e60a2e36d43d8"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=92060386-07fe-49e5-8682-b1a2927bcda3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">487bd11847360110f97e60a2e36d43bf</model>
+        <model_id>487bd11847360110f97e60a2e36d43bf</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_487bd11847360110f97e60a2e36d43bf</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:53:44</sys_created_on>
+        <sys_id>587bd11847360110f97e60a2e36d43d8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:55:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update Customer Address">150bdd9447360110f97e60a2e36d4321</action>
+        <cid>072899e1-5369-4a50-aa5a-e518e2b2e4a7</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:53:44</sys_created_on>
+        <sys_id>907bd11847360110f97e60a2e36d43fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:55:04</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=907bd11847360110f97e60a2e36d43fb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>907bd11847360110f97e60a2e36d43fb</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:55:04</sys_created_on>
+        <sys_id>77bb5d1847360110f97e60a2e36d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:55:04</sys_updated_on>
+        <value>{"result":[{"calendar_integration":"1","country":"","last_position_update":"","user_password":"$s$8XyEJ/yU2m87/Xlp2r6vmeLQBFq30P1i5dnwPxjKTdk=$oISqMAG2aWh3HKw3jRwoeqfiuNwcPu6Ea2fWaIugPEg=","last_login_time":"","source":"","sys_updated_on":"2021-05-03 14:59:21","building":"","web_service_access_only":"false","notification":"2","enable_multifactor_authn":"false","sys_updated_by":"james.belote","sys_created_on":"2012-02-18 03:04:52","sys_domain":{"link":"https://jbelote12demo.service-now.com/api/now/table/sys_user_group/global","value":"global"},"state":"","vip":"false","sys_created_by":"admin","longitude":"","zip":"","home_phone":"","time_format":"","last_login":"","default_perspective":"","geolocation_tracked":"false","active":"true","sys_domain_path":"/","cost_center":{"link":"https://jbelote12demo.service-now.com/api/now/table/cmn_cost_center/d9d07bddc0a80a647cf932056ed24652","value":"d9d07bddc0a80a647cf932056ed24652"},"phone":"","name":"Abel Tuter","employee_number":"","password_needs_reset":"false","gender":"Male","city":"","failed_attempts":"0","user_name":"abel.tuter","latitude":"","roles":"","title":"","sys_class_name":"sys_user","sys_id":"62826bf03710200044e0bfc8bcbe5df1","internal_integration_user":"false","ldap_server":"","mobile_phone":"","street":"","company":{"link":"https://jbelote12demo.service-now.com/api/now/table/core_company/227cdfb03710200044e0bfc8bcbe5d6b","value":"227cdfb03710200044e0bfc8bcbe5d6b"},"department":{"link":"https://jbelote12demo.service-now.com/api/now/table/cmn_department/9a7ed3f03710200044e0bfc8bcbe5db7","value":"9a7ed3f03710200044e0bfc8bcbe5db7"},"first_name":"Abel","email":"abel.tuter@example.com","introduction":"","preferred_language":"","manager":"","locked_out":"false","sys_mod_count":"9","last_name":"Tuter","photo":"","avatar":"063e38383730310042106710ce41f13b","middle_name":"","sys_tags":"","time_zone":"","schedule":"","date_format":"","location":{"link":"https://jbelote12demo.service-now.com/api/now/table/cmn_location/25b3d04b0a0a0bb300176b546c22db27","value":"25b3d04b0a0a0bb300176b546c22db27"}}]}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>907bd11847360110f97e60a2e36d43fb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:55:04</sys_created_on>
+        <sys_id>b3bb5d1847360110f97e60a2e36d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:55:04</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"result","children":[{"name":"result_object","children":[{"name":"calendar_integration","children":[],"type":"string","jpath":"$.result[*].calendar_integration","previewValue":"1"},{"name":"country","children":[],"type":"string","jpath":"$.result[*].country","previewValue":""},{"name":"last_position_update","children":[],"type":"string","jpath":"$.result[*].last_position_update","previewValue":""},{"name":"user_password","children":[],"type":"string","jpath":"$.result[*].user_password","previewValue":"$s$8XyEJ/yU2m87/Xlp2r6vmeLQBFq30P1i5dnwPxjKTdk=$oISqMAG2aWh3HKw3jRwoeqfiuNwcPu6Ea2fWaIugPEg="},{"name":"last_login_time","children":[],"type":"string","jpath":"$.result[*].last_login_time","previewValue":""},{"name":"source","children":[],"type":"string","jpath":"$.result[*].source","previewValue":""},{"name":"sys_updated_on","children":[],"type":"string","jpath":"$.result[*].sys_updated_on","previewValue":"2021-05-03 14:59:21"},{"name":"building","children":[],"type":"string","jpath":"$.result[*].building","previewValue":""},{"name":"web_service_access_only","children":[],"type":"string","jpath":"$.result[*].web_service_access_only","previewValue":"false"},{"name":"notification","children":[],"type":"string","jpath":"$.result[*].notification","previewValue":"2"},{"name":"enable_multifactor_authn","children":[],"type":"string","jpath":"$.result[*].enable_multifactor_authn","previewValue":"false"},{"name":"sys_updated_by","children":[],"type":"string","jpath":"$.result[*].sys_updated_by","previewValue":"james.belote"},{"name":"sys_created_on","children":[],"type":"string","jpath":"$.result[*].sys_created_on","previewValue":"2012-02-18 03:04:52"},{"name":"sys_domain","children":[{"name":"link","children":[],"type":"string","jpath":"$.result[*].sys_domain.link","previewValue":"https://jbelote12demo.service-now.com/api/now/table/sys_user_group/global"},{"name":"value","children":[],"type":"string","jpath":"$.result[*].sys_domain.value","previewValue":"global"}],"type":"object","jpath":"$.result[*].sys_domain","previewValue":""},{"name":"state","children":[],"type":"string","jpath":"$.result[*].state","previewValue":""},{"name":"vip","children":[],"type":"string","jpath":"$.result[*].vip","previewValue":"false"},{"name":"sys_created_by","children":[],"type":"string","jpath":"$.result[*].sys_created_by","previewValue":"admin"},{"name":"longitude","children":[],"type":"string","jpath":"$.result[*].longitude","previewValue":""},{"name":"zip","children":[],"type":"string","jpath":"$.result[*].zip","previewValue":""},{"name":"home_phone","children":[],"type":"string","jpath":"$.result[*].home_phone","previewValue":""},{"name":"time_format","children":[],"type":"string","jpath":"$.result[*].time_format","previewValue":""},{"name":"last_login","children":[],"type":"string","jpath":"$.result[*].last_login","previewValue":""},{"name":"default_perspective","children":[],"type":"string","jpath":"$.result[*].default_perspective","previewValue":""},{"name":"geolocation_tracked","children":[],"type":"string","jpath":"$.result[*].geolocation_tracked","previewValue":"false"},{"name":"active","children":[],"type":"string","jpath":"$.result[*].active","previewValue":"true"},{"name":"sys_domain_path","children":[],"type":"string","jpath":"$.result[*].sys_domain_path","previewValue":"/"},{"name":"cost_center","children":[{"name":"link","children":[],"type":"string","jpath":"$.result[*].cost_center.link","previewValue":"https://jbelote12demo.service-now.com/api/now/table/cmn_cost_center/d9d07bddc0a80a647cf932056ed24652"},{"name":"value","children":[],"type":"string","jpath":"$.result[*].cost_center.value","previewValue":"d9d07bddc0a80a647cf932056ed24652"}],"type":"object","jpath":"$.result[*].cost_center","previewValue":""},{"name":"phone","children":[],"type":"string","jpath":"$.result[*].phone","previewValue":""},{"name":"name","children":[],"type":"string","jpath":"$.result[*].name","previewValue":"Abel Tuter"},{"name":"employee_number","children":[],"type":"string","jpath":"$.result[*].employee_number","previewValue":""},{"name":"password_needs_reset","children":[],"type":"string","jpath":"$.result[*].password_needs_reset","previewValue":"false"},{"name":"gender","children":[],"type":"string","jpath":"$.result[*].gender","previewValue":"Male"},{"name":"city","children":[],"type":"string","jpath":"$.result[*].city","previewValue":""},{"name":"failed_attempts","children":[],"type":"string","jpath":"$.result[*].failed_attempts","previewValue":"0"},{"name":"user_name","children":[],"type":"string","jpath":"$.result[*].user_name","previewValue":"abel.tuter"},{"name":"latitude","children":[],"type":"string","jpath":"$.result[*].latitude","previewValue":""},{"name":"roles","children":[],"type":"string","jpath":"$.result[*].roles","previewValue":""},{"name":"title","children":[],"type":"string","jpath":"$.result[*].title","previewValue":""},{"name":"sys_class_name","children":[],"type":"string","jpath":"$.result[*].sys_class_name","previewValue":"sys_user"},{"name":"sys_id","children":[],"type":"string","jpath":"$.result[*].sys_id","previewValue":"62826bf03710200044e0bfc8bcbe5df1"},{"name":"internal_integration_user","children":[],"type":"string","jpath":"$.result[*].internal_integration_user","previewValue":"false"},{"name":"ldap_server","children":[],"type":"string","jpath":"$.result[*].ldap_server","previewValue":""},{"name":"mobile_phone","children":[],"type":"string","jpath":"$.result[*].mobile_phone","previewValue":""},{"name":"street","children":[],"type":"string","jpath":"$.result[*].street","previewValue":""},{"name":"company","children":[{"name":"link","children":[],"type":"string","jpath":"$.result[*].company.link","previewValue":"https://jbelote12demo.service-now.com/api/now/table/core_company/227cdfb03710200044e0bfc8bcbe5d6b"},{"name":"value","children":[],"type":"string","jpath":"$.result[*].company.value","previewValue":"227cdfb03710200044e0bfc8bcbe5d6b"}],"type":"object","jpath":"$.result[*].company","previewValue":""},{"name":"department","children":[{"name":"link","children":[],"type":"string","jpath":"$.result[*].department.link","previewValue":"https://jbelote12demo.service-now.com/api/now/table/cmn_department/9a7ed3f03710200044e0bfc8bcbe5db7"},{"name":"value","children":[],"type":"string","jpath":"$.result[*].department.value","previewValue":"9a7ed3f03710200044e0bfc8bcbe5db7"}],"type":"object","jpath":"$.result[*].department","previewValue":""},{"name":"first_name","children":[],"type":"string","jpath":"$.result[*].first_name","previewValue":"Abel"},{"name":"email","children":[],"type":"string","jpath":"$.result[*].email","previewValue":"abel.tuter@example.com"},{"name":"introduction","children":[],"type":"string","jpath":"$.result[*].introduction","previewValue":""},{"name":"preferred_language","children":[],"type":"string","jpath":"$.result[*].preferred_language","previewValue":""},{"name":"manager","children":[],"type":"string","jpath":"$.result[*].manager","previewValue":""},{"name":"locked_out","children":[],"type":"string","jpath":"$.result[*].locked_out","previewValue":"false"},{"name":"sys_mod_count","children":[],"type":"string","jpath":"$.result[*].sys_mod_count","previewValue":"9"},{"name":"last_name","children":[],"type":"string","jpath":"$.result[*].last_name","previewValue":"Tuter"},{"name":"photo","children":[],"type":"string","jpath":"$.result[*].photo","previewValue":""},{"name":"avatar","children":[],"type":"string","jpath":"$.result[*].avatar","previewValue":"063e38383730310042106710ce41f13b"},{"name":"middle_name","children":[],"type":"string","jpath":"$.result[*].middle_name","previewValue":""},{"name":"sys_tags","children":[],"type":"string","jpath":"$.result[*].sys_tags","previewValue":""},{"name":"time_zone","children":[],"type":"string","jpath":"$.result[*].time_zone","previewValue":""},{"name":"schedule","children":[],"type":"string","jpath":"$.result[*].schedule","previewValue":""},{"name":"date_format","children":[],"type":"string","jpath":"$.result[*].date_format","previewValue":""},{"name":"location","children":[{"name":"link","children":[],"type":"string","jpath":"$.result[*].location.link","previewValue":"https://jbelote12demo.service-now.com/api/now/table/cmn_location/25b3d04b0a0a0bb300176b546c22db27"},{"name":"value","children":[],"type":"string","jpath":"$.result[*].location.value","previewValue":"25b3d04b0a0a0bb300176b546c22db27"}],"type":"object","jpath":"$.result[*].location","previewValue":""}],"type":"object","jpath":"$.result[*]","previewValue":""}],"type":"array.object","jpath":"$.result[*]","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=907bd11847360110f97e60a2e36d43fb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>907bd11847360110f97e60a2e36d43fb</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:55:04</sys_created_on>
+        <sys_id>33bb5d1847360110f97e60a2e36d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:55:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>907bd11847360110f97e60a2e36d43fb</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:55:04</sys_created_on>
+        <sys_id>bbbb5d1847360110f97e60a2e36d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:55:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[f453c5ca-455e-4f31-b61c-5906447297d8].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>907bd11847360110f97e60a2e36d43fb</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:55:04</sys_created_on>
+        <sys_id>7fbb5d1847360110f97e60a2e36d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:55:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=907bd11847360110f97e60a2e36d43fb^sys_idNOT INf7bb5d1847360110f97e60a2e36d4341"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD33bb5d189d3601107b4093af53d67c3e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=5d6d8d8b-5ffc-4e26-95b0-fada2856e27b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">907bd11847360110f97e60a2e36d43fb</model>
+        <model_id>907bd11847360110f97e60a2e36d43fb</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_907bd11847360110f97e60a2e36d43fb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:55:04</sys_created_on>
+        <sys_id>f7bb5d1847360110f97e60a2e36d4341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:55:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=907bd11847360110f97e60a2e36d43fb^sys_idNOT IN33bb5d1847360110f97e60a2e36d4356"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>source_data</input_name>
+        <instance>907bd11847360110f97e60a2e36d43fb</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"source_data":{"scriptActive":false}}</script>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:55:04</sys_created_on>
+        <sys_id>33bb5d1847360110f97e60a2e36d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:55:04</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_output action="delete_multiple" query="model=150bdd9447360110f97e60a2e36d4321^sys_idNOT INdefb915847360110f97e60a2e36d43d0"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=7532783d-a88f-46a0-8642-58861a968857</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>success</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Success</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Customer Address">150bdd9447360110f97e60a2e36d4321</model>
+        <model_id>150bdd9447360110f97e60a2e36d4321</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_150bdd9447360110f97e60a2e36d4321</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:56:03</sys_created_on>
+        <sys_id>defb915847360110f97e60a2e36d43d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:56:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_150bdd9447360110f97e60a2e36d4321^sys_idNOT INd6fb915847360110f97e60a2e36d43d8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>success</element>
+        <help/>
+        <hint/>
+        <label>Success</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_150bdd9447360110f97e60a2e36d4321</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 13:56:04</sys_created_on>
+        <sys_id>d6fb915847360110f97e60a2e36d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 13:56:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=150bdd9447360110f97e60a2e36d4321^sys_idNOT IN228f91dc47360110f97e60a2e36d4387"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Update Customer Address">150bdd9447360110f97e60a2e36d4321</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"228f91dc47360110f97e60a2e36d4387","name":"plan"}}</plan>
+        <snapshot>5a8f51dc47360110f97e60a2e36d43d0</snapshot>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>228f91dc47360110f97e60a2e36d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:38</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>update_customer_address</internal_name>
+        <label_cache>[{"name":"{{step[f453c5ca-455e-4f31-b61c-5906447297d8].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Update Customer Address</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Update Customer Address">150bdd9447360110f97e60a2e36d4321</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0e8f51dc47360110f97e60a2e36d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:36</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=0e8f51dc47360110f97e60a2e36d4385"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0e8f51dc47360110f97e60a2e36d4385"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>0e8f51dc47360110f97e60a2e36d4385</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:37</sys_created_on>
+        <sys_id>568f51dc47360110f97e60a2e36d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:37</sys_updated_on>
+        <value>true</value>
+        <variable display_value="Success">168f51dc47360110f97e60a2e36d43c5</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="delete_multiple" query="action=0e8f51dc47360110f97e60a2e36d4385^sys_idNOT IN468f51dc47360110f97e60a2e36d43a6,ca8f51dc47360110f97e60a2e36d4389"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update Customer Address">0e8f51dc47360110f97e60a2e36d4385</action>
+        <cid>072899e1-5369-4a50-aa5a-e518e2b2e4a7</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:36</sys_created_on>
+        <sys_id>468f51dc47360110f97e60a2e36d43a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:37</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=468f51dc47360110f97e60a2e36d43a6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>468f51dc47360110f97e60a2e36d43a6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:37</sys_created_on>
+        <sys_id>168f51dc47360110f97e60a2e36d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:37</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"result","children":[{"name":"result_object","children":[{"name":"calendar_integration","children":[],"type":"string","jpath":"$.result[*].calendar_integration","previewValue":"1"},{"name":"country","children":[],"type":"string","jpath":"$.result[*].country","previewValue":""},{"name":"last_position_update","children":[],"type":"string","jpath":"$.result[*].last_position_update","previewValue":""},{"name":"user_password","children":[],"type":"string","jpath":"$.result[*].user_password","previewValue":"$s$8XyEJ/yU2m87/Xlp2r6vmeLQBFq30P1i5dnwPxjKTdk=$oISqMAG2aWh3HKw3jRwoeqfiuNwcPu6Ea2fWaIugPEg="},{"name":"last_login_time","children":[],"type":"string","jpath":"$.result[*].last_login_time","previewValue":""},{"name":"source","children":[],"type":"string","jpath":"$.result[*].source","previewValue":""},{"name":"sys_updated_on","children":[],"type":"string","jpath":"$.result[*].sys_updated_on","previewValue":"2021-05-03 14:59:21"},{"name":"building","children":[],"type":"string","jpath":"$.result[*].building","previewValue":""},{"name":"web_service_access_only","children":[],"type":"string","jpath":"$.result[*].web_service_access_only","previewValue":"false"},{"name":"notification","children":[],"type":"string","jpath":"$.result[*].notification","previewValue":"2"},{"name":"enable_multifactor_authn","children":[],"type":"string","jpath":"$.result[*].enable_multifactor_authn","previewValue":"false"},{"name":"sys_updated_by","children":[],"type":"string","jpath":"$.result[*].sys_updated_by","previewValue":"james.belote"},{"name":"sys_created_on","children":[],"type":"string","jpath":"$.result[*].sys_created_on","previewValue":"2012-02-18 03:04:52"},{"name":"sys_domain","children":[{"name":"link","children":[],"type":"string","jpath":"$.result[*].sys_domain.link","previewValue":"https://jbelote12demo.service-now.com/api/now/table/sys_user_group/global"},{"name":"value","children":[],"type":"string","jpath":"$.result[*].sys_domain.value","previewValue":"global"}],"type":"object","jpath":"$.result[*].sys_domain","previewValue":""},{"name":"state","children":[],"type":"string","jpath":"$.result[*].state","previewValue":""},{"name":"vip","children":[],"type":"string","jpath":"$.result[*].vip","previewValue":"false"},{"name":"sys_created_by","children":[],"type":"string","jpath":"$.result[*].sys_created_by","previewValue":"admin"},{"name":"longitude","children":[],"type":"string","jpath":"$.result[*].longitude","previewValue":""},{"name":"zip","children":[],"type":"string","jpath":"$.result[*].zip","previewValue":""},{"name":"home_phone","children":[],"type":"string","jpath":"$.result[*].home_phone","previewValue":""},{"name":"time_format","children":[],"type":"string","jpath":"$.result[*].time_format","previewValue":""},{"name":"last_login","children":[],"type":"string","jpath":"$.result[*].last_login","previewValue":""},{"name":"default_perspective","children":[],"type":"string","jpath":"$.result[*].default_perspective","previewValue":""},{"name":"geolocation_tracked","children":[],"type":"string","jpath":"$.result[*].geolocation_tracked","previewValue":"false"},{"name":"active","children":[],"type":"string","jpath":"$.result[*].active","previewValue":"true"},{"name":"sys_domain_path","children":[],"type":"string","jpath":"$.result[*].sys_domain_path","previewValue":"/"},{"name":"cost_center","children":[{"name":"link","children":[],"type":"string","jpath":"$.result[*].cost_center.link","previewValue":"https://jbelote12demo.service-now.com/api/now/table/cmn_cost_center/d9d07bddc0a80a647cf932056ed24652"},{"name":"value","children":[],"type":"string","jpath":"$.result[*].cost_center.value","previewValue":"d9d07bddc0a80a647cf932056ed24652"}],"type":"object","jpath":"$.result[*].cost_center","previewValue":""},{"name":"phone","children":[],"type":"string","jpath":"$.result[*].phone","previewValue":""},{"name":"name","children":[],"type":"string","jpath":"$.result[*].name","previewValue":"Abel Tuter"},{"name":"employee_number","children":[],"type":"string","jpath":"$.result[*].employee_number","previewValue":""},{"name":"password_needs_reset","children":[],"type":"string","jpath":"$.result[*].password_needs_reset","previewValue":"false"},{"name":"gender","children":[],"type":"string","jpath":"$.result[*].gender","previewValue":"Male"},{"name":"city","children":[],"type":"string","jpath":"$.result[*].city","previewValue":""},{"name":"failed_attempts","children":[],"type":"string","jpath":"$.result[*].failed_attempts","previewValue":"0"},{"name":"user_name","children":[],"type":"string","jpath":"$.result[*].user_name","previewValue":"abel.tuter"},{"name":"latitude","children":[],"type":"string","jpath":"$.result[*].latitude","previewValue":""},{"name":"roles","children":[],"type":"string","jpath":"$.result[*].roles","previewValue":""},{"name":"title","children":[],"type":"string","jpath":"$.result[*].title","previewValue":""},{"name":"sys_class_name","children":[],"type":"string","jpath":"$.result[*].sys_class_name","previewValue":"sys_user"},{"name":"sys_id","children":[],"type":"string","jpath":"$.result[*].sys_id","previewValue":"62826bf03710200044e0bfc8bcbe5df1"},{"name":"internal_integration_user","children":[],"type":"string","jpath":"$.result[*].internal_integration_user","previewValue":"false"},{"name":"ldap_server","children":[],"type":"string","jpath":"$.result[*].ldap_server","previewValue":""},{"name":"mobile_phone","children":[],"type":"string","jpath":"$.result[*].mobile_phone","previewValue":""},{"name":"street","children":[],"type":"string","jpath":"$.result[*].street","previewValue":""},{"name":"company","children":[{"name":"link","children":[],"type":"string","jpath":"$.result[*].company.link","previewValue":"https://jbelote12demo.service-now.com/api/now/table/core_company/227cdfb03710200044e0bfc8bcbe5d6b"},{"name":"value","children":[],"type":"string","jpath":"$.result[*].company.value","previewValue":"227cdfb03710200044e0bfc8bcbe5d6b"}],"type":"object","jpath":"$.result[*].company","previewValue":""},{"name":"department","children":[{"name":"link","children":[],"type":"string","jpath":"$.result[*].department.link","previewValue":"https://jbelote12demo.service-now.com/api/now/table/cmn_department/9a7ed3f03710200044e0bfc8bcbe5db7"},{"name":"value","children":[],"type":"string","jpath":"$.result[*].department.value","previewValue":"9a7ed3f03710200044e0bfc8bcbe5db7"}],"type":"object","jpath":"$.result[*].department","previewValue":""},{"name":"first_name","children":[],"type":"string","jpath":"$.result[*].first_name","previewValue":"Abel"},{"name":"email","children":[],"type":"string","jpath":"$.result[*].email","previewValue":"abel.tuter@example.com"},{"name":"introduction","children":[],"type":"string","jpath":"$.result[*].introduction","previewValue":""},{"name":"preferred_language","children":[],"type":"string","jpath":"$.result[*].preferred_language","previewValue":""},{"name":"manager","children":[],"type":"string","jpath":"$.result[*].manager","previewValue":""},{"name":"locked_out","children":[],"type":"string","jpath":"$.result[*].locked_out","previewValue":"false"},{"name":"sys_mod_count","children":[],"type":"string","jpath":"$.result[*].sys_mod_count","previewValue":"9"},{"name":"last_name","children":[],"type":"string","jpath":"$.result[*].last_name","previewValue":"Tuter"},{"name":"photo","children":[],"type":"string","jpath":"$.result[*].photo","previewValue":""},{"name":"avatar","children":[],"type":"string","jpath":"$.result[*].avatar","previewValue":"063e38383730310042106710ce41f13b"},{"name":"middle_name","children":[],"type":"string","jpath":"$.result[*].middle_name","previewValue":""},{"name":"sys_tags","children":[],"type":"string","jpath":"$.result[*].sys_tags","previewValue":""},{"name":"time_zone","children":[],"type":"string","jpath":"$.result[*].time_zone","previewValue":""},{"name":"schedule","children":[],"type":"string","jpath":"$.result[*].schedule","previewValue":""},{"name":"date_format","children":[],"type":"string","jpath":"$.result[*].date_format","previewValue":""},{"name":"location","children":[{"name":"link","children":[],"type":"string","jpath":"$.result[*].location.link","previewValue":"https://jbelote12demo.service-now.com/api/now/table/cmn_location/25b3d04b0a0a0bb300176b546c22db27"},{"name":"value","children":[],"type":"string","jpath":"$.result[*].location.value","previewValue":"25b3d04b0a0a0bb300176b546c22db27"}],"type":"object","jpath":"$.result[*].location","previewValue":""}],"type":"object","jpath":"$.result[*]","previewValue":""}],"type":"array.object","jpath":"$.result[*]","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>468f51dc47360110f97e60a2e36d43a6</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:37</sys_created_on>
+        <sys_id>d68f51dc47360110f97e60a2e36d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:37</sys_updated_on>
+        <value>{"result":[{"calendar_integration":"1","country":"","last_position_update":"","user_password":"$s$8XyEJ/yU2m87/Xlp2r6vmeLQBFq30P1i5dnwPxjKTdk=$oISqMAG2aWh3HKw3jRwoeqfiuNwcPu6Ea2fWaIugPEg=","last_login_time":"","source":"","sys_updated_on":"2021-05-03 14:59:21","building":"","web_service_access_only":"false","notification":"2","enable_multifactor_authn":"false","sys_updated_by":"james.belote","sys_created_on":"2012-02-18 03:04:52","sys_domain":{"link":"https://jbelote12demo.service-now.com/api/now/table/sys_user_group/global","value":"global"},"state":"","vip":"false","sys_created_by":"admin","longitude":"","zip":"","home_phone":"","time_format":"","last_login":"","default_perspective":"","geolocation_tracked":"false","active":"true","sys_domain_path":"/","cost_center":{"link":"https://jbelote12demo.service-now.com/api/now/table/cmn_cost_center/d9d07bddc0a80a647cf932056ed24652","value":"d9d07bddc0a80a647cf932056ed24652"},"phone":"","name":"Abel Tuter","employee_number":"","password_needs_reset":"false","gender":"Male","city":"","failed_attempts":"0","user_name":"abel.tuter","latitude":"","roles":"","title":"","sys_class_name":"sys_user","sys_id":"62826bf03710200044e0bfc8bcbe5df1","internal_integration_user":"false","ldap_server":"","mobile_phone":"","street":"","company":{"link":"https://jbelote12demo.service-now.com/api/now/table/core_company/227cdfb03710200044e0bfc8bcbe5d6b","value":"227cdfb03710200044e0bfc8bcbe5d6b"},"department":{"link":"https://jbelote12demo.service-now.com/api/now/table/cmn_department/9a7ed3f03710200044e0bfc8bcbe5db7","value":"9a7ed3f03710200044e0bfc8bcbe5db7"},"first_name":"Abel","email":"abel.tuter@example.com","introduction":"","preferred_language":"","manager":"","locked_out":"false","sys_mod_count":"9","last_name":"Tuter","photo":"","avatar":"063e38383730310042106710ce41f13b","middle_name":"","sys_tags":"","time_zone":"","schedule":"","date_format":"","location":{"link":"https://jbelote12demo.service-now.com/api/now/table/cmn_location/25b3d04b0a0a0bb300176b546c22db27","value":"25b3d04b0a0a0bb300176b546c22db27"}}]}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=468f51dc47360110f97e60a2e36d43a6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>468f51dc47360110f97e60a2e36d43a6</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:37</sys_created_on>
+        <sys_id>da8f51dc47360110f97e60a2e36d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>468f51dc47360110f97e60a2e36d43a6</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:37</sys_created_on>
+        <sys_id>568f51dc47360110f97e60a2e36d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[f453c5ca-455e-4f31-b61c-5906447297d8].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>468f51dc47360110f97e60a2e36d43a6</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:37</sys_created_on>
+        <sys_id>1a8f51dc47360110f97e60a2e36d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=468f51dc47360110f97e60a2e36d43a6^sys_idNOT IN5e8f51dc47360110f97e60a2e36d43ab"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD028f51dc64360110de74783d65626da9,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=5d6d8d8b-5ffc-4e26-95b0-fada2856e27b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">468f51dc47360110f97e60a2e36d43a6</model>
+        <model_id>468f51dc47360110f97e60a2e36d43a6</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_468f51dc47360110f97e60a2e36d43a6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:37</sys_created_on>
+        <sys_id>5e8f51dc47360110f97e60a2e36d43ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=468f51dc47360110f97e60a2e36d43a6^sys_idNOT INde8f51dc47360110f97e60a2e36d43b3"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>source_data</input_name>
+        <instance>468f51dc47360110f97e60a2e36d43a6</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"source_data":{"scriptActive":false}}</script>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:37</sys_created_on>
+        <sys_id>de8f51dc47360110f97e60a2e36d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:37</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update Customer Address">0e8f51dc47360110f97e60a2e36d4385</action>
+        <cid>f453c5ca-455e-4f31-b61c-5906447297d8</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:36</sys_created_on>
+        <sys_id>ca8f51dc47360110f97e60a2e36d4389</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:36</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ca8f51dc47360110f97e60a2e36d4389"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca8f51dc47360110f97e60a2e36d4389</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:36</sys_created_on>
+        <sys_id>028f51dc47360110f97e60a2e36d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:36</sys_updated_on>
+        <value>api/now/table/sys_user</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca8f51dc47360110f97e60a2e36d4389</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:36</sys_created_on>
+        <sys_id>068f51dc47360110f97e60a2e36d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:36</sys_updated_on>
+        <value>63a201cf877f6410518cebdd3fbb35c1</value>
+        <variable display_value="Credential Alias">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca8f51dc47360110f97e60a2e36d4389</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:36</sys_created_on>
+        <sys_id>0a8f51dc47360110f97e60a2e36d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:36</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca8f51dc47360110f97e60a2e36d4389</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:36</sys_created_on>
+        <sys_id>428f51dc47360110f97e60a2e36d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:36</sys_updated_on>
+        <value>https://jbelote12demo.service-now.com</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca8f51dc47360110f97e60a2e36d4389</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:36</sys_created_on>
+        <sys_id>8a8f51dc47360110f97e60a2e36d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:36</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"active","value":"true"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"user_name","value":"abel.tuter"}]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca8f51dc47360110f97e60a2e36d4389</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:36</sys_created_on>
+        <sys_id>8e8f51dc47360110f97e60a2e36d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:36</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca8f51dc47360110f97e60a2e36d4389</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:36</sys_created_on>
+        <sys_id>c68f51dc47360110f97e60a2e36d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:36</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca8f51dc47360110f97e60a2e36d4389</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:36</sys_created_on>
+        <sys_id>ca8f51dc47360110f97e60a2e36d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:36</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ca8f51dc47360110f97e60a2e36d4389^sys_idNOT IN4e8f51dc47360110f97e60a2e36d4390"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=92060386-07fe-49e5-8682-b1a2927bcda3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">ca8f51dc47360110f97e60a2e36d4389</model>
+        <model_id>ca8f51dc47360110f97e60a2e36d4389</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ca8f51dc47360110f97e60a2e36d4389</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:36</sys_created_on>
+        <sys_id>4e8f51dc47360110f97e60a2e36d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_output action="delete_multiple" query="model=0e8f51dc47360110f97e60a2e36d4385^sys_idNOT IN168f51dc47360110f97e60a2e36d43c5"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=7532783d-a88f-46a0-8642-58861a968857</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>success</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Success</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Customer Address">0e8f51dc47360110f97e60a2e36d4385</model>
+        <model_id>0e8f51dc47360110f97e60a2e36d4385</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_0e8f51dc47360110f97e60a2e36d4385</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:37</sys_created_on>
+        <sys_id>168f51dc47360110f97e60a2e36d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0e8f51dc47360110f97e60a2e36d4385^sys_idNOT INd68f51dc47360110f97e60a2e36d43cc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>success</element>
+        <help/>
+        <hint/>
+        <label>Success</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0e8f51dc47360110f97e60a2e36d4385</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2022-04-07 14:11:37</sys_created_on>
+        <sys_id>d68f51dc47360110f97e60a2e36d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Finance Service Management" source="x_snc_finance_se_0">8b33f85e1b847c10c5780f20604bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">8b33f85e1b847c10c5780f20604bcbc6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:11:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>150bdd9447360110f97e60a2e36d4321</sys_id>
+        <latest_snapshot>0e8f51dc47360110f97e60a2e36d4385</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>
